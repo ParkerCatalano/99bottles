@@ -7,6 +7,9 @@ $(document).ready(function() {
       var userInput = $("input#" + blank).val();
       $("." + blank).text(userInput);
       $("#lowerBottle").text(userInput - 1);
+        if (userInput = 1) {
+          $("#lowerBottle").text("no more");
+        }
 
     });
 
