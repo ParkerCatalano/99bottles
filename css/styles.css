@@ -1,16 +1,15 @@
 label {
   display: block;
-  width:100px;
+  width:20px;
 
 }
 
 .jumbotron {
-  background-image: url("http://a.fastcompany.net/multisite_files/coexist/imagecache/1280/poster/2013/03/1681653-poster-1280-beer-bottles.jpg");
+  background-image: url("http://www.all-sweets.com/gradient-wallpaper/light-gradient/light-gradient-3-1440x900.jpg");
   height: 200px;
   margin-top: 20px;
   text-align: center;
   text-decoration: underline ;
   background-position: center;
-  color: #ccffe6;
+  color: ##5E0243;
   font-size:65px;
-  text-shadow: 4px 4px #006633;
