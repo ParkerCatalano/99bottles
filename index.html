@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>99 Bottles</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+      <h1>Enter a number of bottles to start with</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="bottleNum">#</label>
+            <input id="bottleNum" class="form-control" type="text">
+          </div>
+          <div class="bottle2" id="bottleNum2"></div>
+          <button type="submit" class="btn">time to sing!</button>
+        </form>
+      </div>
+      <div id="song">
+        <h1>The song goes...</h1>
+        <p><span class="bottleNum"></span> bottles of beer on the wall, <span class="bottleNum"></span> bottles of beer...
+take one down, pass it around, <span class="bottleNum2"></span> bottles of beer on the wall.
+      </div>
+    </div>
+  </body>
+</html>
